@@ -25,7 +25,7 @@ window.addEventListener("load",function(){ // waits till the page is finished lo
                     console.log(array)
 
                     //modifies an array by replacing the value at index "a" with the number 10. Finally, it checks if certain conditions are met with the array. If any of these conditions are true, it shows a message on the webpage that says "Congratulations! X is the Winner!".//
-                    if (array[0]+array[1]+array[2] == 30 || array[3]+array[4]+array[5] == 30 || array[6]+array[7]+array[8] == 30 || array[0]+array[3]+array[6] == 30 || array[1]+array[3]+array[6] == 30 || array[2]+array[5]+array[8] == 30 || array[0]+array[4]+array[8] == 30 || array[2]+array[4]+array[6] == 30){
+                    if (array[0]+array[1]+array[2] == 30 || array[3]+array[4]+array[5] == 30 || array[6]+array[7]+array[8] == 30 || array[1]+array[4]+array[7] == 30 || array[1]+array[3]+array[6] == 30 || array[2]+array[5]+array[8] == 30 || array[0]+array[4]+array[8] == 30 || array[2]+array[4]+array[6] == 30){
                         status.textContent="Congratulations!X is the Winner!"
                         status.classList.add('you-won')	
                         //Overall, this code is adding a class to an element and adding a function to be executed when the element is clicked. When the element is clicked, it updates the webpage to show the letter "X" and checks if the game has been won.//
